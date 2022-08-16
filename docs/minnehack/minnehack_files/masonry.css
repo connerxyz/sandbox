@@ -1,0 +1,36 @@
+.masonry-grid {
+    width: 100%;
+}
+
+/* clearfix */
+.masonry-grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.masonry-item {
+    width: calc(33% - 10px);
+    float: left;
+    margin-bottom: 10px;
+}
+
+/*
+.masonry-item.thumbnail {
+  width:  100px;
+  height: 100px;
+  background: #cfcfcf
+}
+
+.masonry-item.medium {
+  width:  150px;
+  height: 50px;
+  background: #A6E392
+}
+
+.masonry-item.large {
+  width:  200px;
+  height: 100px;
+  background: #D092E3
+}
+*/
