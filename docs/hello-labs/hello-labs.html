@@ -1,0 +1,23 @@
+{% extends "base-container.html" %}
+
+{% block title %}hello-labs{% endblock %}
+{% block head %}
+  {{ super() }}
+  <link href="{{ url_for('hello_labs.static', filename='style.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block container %}
+{% filter markdown %}
+
+# hello labs
+
+{% endfilter %}
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <script src="{{ url_for('hello_labs.static', filename='hello-labs.js') }}" type="text/javascript"></script>
+  <script>
+    $("#loading").removeClass('active');
+  </script>
+{% endblock %}

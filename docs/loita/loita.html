@@ -1,0 +1,51 @@
+{% extends "base-container.html" %}
+
+{% block title %}loita{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  {{ zoom.css | safe }}
+  {{ masonry_grid.css | safe }}
+{% endblock %}
+
+{% block container %}
+{% filter markdown %}
+
+# Lost out in the abyss
+
+A commission from the late 2000s to create images for the album
+*Lost in the Abyss*, music composed and performed by the band Orca.
+
+## Elements
+
+The album's recordings were largely **live studio performances** featuring **extended improvisational** sections with
+**psychedelic elements**. These themes were incorporated into the visuals.
+
+{{ zoomable('loita.static', 'img/LOITA_main_border_mockup01.png') | safe }}
+
+## Concept
+
+**The more conceptual part of the work forms a loose pattern when combined with copies of itself.**
+One image evokes **individual experience and mortality**, while the pattern left to be discovered evokes
+**interconnections across experience** with no real beginning or end.
+
+{{ zoomable('loita.static', 'img/LOITA_pattern_notext_vignette.png') | safe }}
+
+## Print
+
+**Posters, album covers, and other materials incorporating the image.**
+
+{{ zoomable('loita.static', 'img/LOITA_swag_mockup01.png') | safe }}
+
+<!--{{ image_gallery('loita.static', images) | safe }}-->
+
+{% endfilter %}
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  {{ jquery.js | safe }}
+  {{ zoom.js | safe }}
+  {{ masonry_grid.js | safe }}
+  <script>$("#loading").removeClass('active');</script>
+{% endblock %}

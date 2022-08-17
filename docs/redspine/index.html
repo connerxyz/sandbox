@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+
+  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/static/favicon_io/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="/static/favicon_io/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="/static/favicon_io/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="/static/favicon_io/site.webmanifest" rel="manifest">
+  <!-- TODO rely on CDN for semantic? -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
+  <link href="/static/style.css" media="all" rel="stylesheet">
+  <title>redspine</title>
+</head>
+
+
+  <link href="/static/zoom/css/zoom.css" rel="stylesheet">
+  <link href="/redspine/style.css" rel="stylesheet">
+
+
+<body>
+
+<div class="ui borderless menu main-menu" id="main-menu">
+    <div class="ui container">
+        <a class="header item" href="/">CXYZ</a>
+        <div class="right menu">
+          <a class="item" href="/about">about</a>
+          <a class="item" href="/contact">contact</a>
+<!--          <div class="item">-->
+<!--            <div class="ui icon input">-->
+<!--              <input type="text" placeholder="Search...">-->
+<!--              <i class="search link icon"></i>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+    </div>
+</div>
+<div id="content">
+
+<div class="ui container">
+<h1>redspine</h1>
+<p>Marker and mixed-media bleed between pages, each page shaping, and shaped by, the pages before and after
+it.</p>
+<p><img style="width:100%;" src="/redspine/img/redspine.png" data-action="zoom"/></p>
+</div>
+</div>
+
+<div class="ui active inverted dimmer" id="loading">
+  <div class="ui small loader"></div>
+</div>
+
+
+  
+
+<!-- TODO rely on CDN for jquery? -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
+<!-- TODO rely on CDN for semantic? -->
+<script crossorigin="anonymous" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+
+  <script src="/static/zoom/js/zoom.js"></script>
+  <script src="/redspine/redspine.js" type="text/javascript"></script>
+  <script>$("#loading").removeClass('active');</script>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/static/favicon_io/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="/static/favicon_io/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="/static/favicon_io/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="/static/favicon_io/site.webmanifest" rel="manifest">
+  <!-- TODO rely on CDN for semantic? -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
+  <link href="/static/style.css" media="all" rel="stylesheet">
+  <title>about</title>
+</head>
+
+
+
+
+<body>
+
+<div class="ui borderless menu main-menu" id="main-menu">
+    <div class="ui container">
+        <a class="header item" href="/">CXYZ</a>
+        <div class="right menu">
+          <a class="item" href="/about">about</a>
+          <a class="item" href="/contact">contact</a>
+<!--          <div class="item">-->
+<!--            <div class="ui icon input">-->
+<!--              <input type="text" placeholder="Search...">-->
+<!--              <i class="search link icon"></i>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+    </div>
+</div>
+<div id="content">
+
+<div class="ui container">
+<!-- TODO -->
+<div class="ui container">
+<h1>conner.xyz</h1>
+<p>A media and technology firm created and led by Conner Carl Mingesz Cowling.</p>
+<p>I'm Conner 👋 – CXYZ</p>
+<!-- Personality -->
+<p>I'm a multimedia creator, father, husband... But first I was a relentlessly curious, trouble making kid
+ from the American midwest. It wasn't until later that I learned to direct my energy and began leverage
+ technology to reach out across the world that I began to make at least some sense of it all.</p>
+<!-- Qualifications and experience -->
+<p>After pursuing an early visual art education, I went on to become an entrepreneur at 19. First freelancing graphic
+ design work, then running a successful retail electronics
+ business by 21, before going on to study computer science where I discovered an interest in large data, machine
+ learning, the web and a passion for the communities and experiences that could be created using these things.</p>
+<ul>
+<li>Research and development organizations.</li>
+<li>Focusing on unlocking creativity by building community and greater social ties, surfacing innovations created
+ within particular business-case driven development to get</li>
+<li>Running communications campaigns to push for more mature machine-learning practices beyond just the organizations'
+ research and development groups.</li>
+<li>
+<p>I've been able to to work on... projects associated with millions of dollars in new revenue.</p>
+</li>
+<li>
+<p>I've more recently gotten involved with</p>
+</li>
+</ul>
+<!-- Philosophy and vision -->
+
+<p>At a fundamental level, the fact that <em>anything exists</em> at all continues to be deeply profound to me. It's a source
+ endless gratitude that continues to drive me to create, experiment, and pursue ideas as far as possible. It
+ all comes down to committing to the work and relationships that energize you.</p>
+<p><em>This site and all the work it exhibits were produced by myself and various collaborators across the globe.
+ Keep up with me via email or the networks below.</em></p>
+<p><button class="ui twitter button">
+  <i class="twitter icon"></i>
+  Twitter
+ </button>
+ <button class="ui instagram button">
+  <i class="instagram icon"></i>
+  Instagram
+ </button>
+ <button class="ui youtube button">
+  <i class="youtube icon"></i>
+  YouTube
+ </button>
+ <button class="ui vk button">
+  <i class="github icon"></i>
+  GitHub
+ </button>
+ <button class="ui linkedin button">
+  <i class="linkedin icon"></i>
+  LinkedIn
+ </button></p>
+<iframe frameborder="0" height="320" scrolling="no" src="https://connerxyzz.substack.com/embed" style="border:1px solid #EEE; background:white;" width="480"></iframe>
+</div>
+</div>
+</div>
+
+<div class="ui active inverted dimmer" id="loading">
+  <div class="ui small loader"></div>
+</div>
+
+
+ 
+
+<!-- TODO rely on CDN for jquery? -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
+<!-- TODO rely on CDN for semantic? -->
+<script crossorigin="anonymous" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+
+ <script>$("#loading").removeClass('active');</script>
+
+</body>
+
+</html>

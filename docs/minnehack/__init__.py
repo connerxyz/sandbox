@@ -1,0 +1,1 @@
+from .minnehack import minnehack

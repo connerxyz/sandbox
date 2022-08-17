@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial;
+    overflow: hidden;
+}
+
+.bumper {
+    width: 100%;
+    height: 50px;
+}
+
+.face-cell {
+    width: 100%;
+}
+
+.face-cell img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.split-line {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    height: 0px;
+    border-top: 1px dotted black;
+    opacity: 0.4;
+}
+
+.inner-cell {
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F5F5F5 300%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F5F5F5 300%);
+    /* Opera */
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F5F5F5 300%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(3, #F5F5F5));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F5F5F5 300%);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(to top, #FFFFFF 0%, #F5F5F5 300%);
+}
+
+.eyes {
+    display: block;
+    margin: auto;
+}
+
+.mouth {
+    display: block;
+    margin: auto;
+}
+
+#top {
+    height: 115px;
+}
+
+#learn {
+    display: none;
+}
+
+#brow {
+    height: 125px;
+}
+
+#look {
+    display: none;
+}
+
+#cheek {
+    height: 125px;
+}
+
+#listen {
+    display: none;
+    height: 0;
+}
+
+#chin {
+    height: 125px;
+    background-color: #FFF;
+}
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 680px) {
+    .bumper {
+        width: 100%;
+        height: auto;
+    }
+    .face-cell {
+        width: 100%;
+    }
+    .face-cell img {
+        border: none;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .split-line {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+    }
+    .inner-cell {
+        width: 100%;
+        height: 50px;
+    }
+    .eyes {
+        display: block;
+        margin: auto;
+    }
+    .mouth {
+        display: block;
+        margin: auto;
+    }
+    #top {
+        height: auto;
+    }
+    #brow {
+        height: auto;
+    }
+    #look {
+        display: none;
+    }
+    #cheek {
+        height: auto;
+    }
+    #chin {
+        height: auto;
+    }
+    audio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    svg {
+        /* width: 100%; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .split-line,
+    .face-cell {
+        position: relative;
+        z-index: 20;
+    }
+    .inner-cell {
+        position: relative;
+    }
+    div#look:after {
+        content: '';
+        position: absolute;
+        left: 35vw;
+        top: 50%;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0px 0px 0px 7vw #fff;
+        z-index: 2;
+        transform: translate(-44%, -50%);
+    }
+    div#look:before {
+        content: '';
+        position: absolute;
+        right: 35vw;
+        top: 50%;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0px 0px 0px 7vw #fff;
+        z-index: 2;
+        transform: translate(-44%, -50%);
+    } */
+}

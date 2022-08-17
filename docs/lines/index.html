@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+
+  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/static/favicon_io/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="/static/favicon_io/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="/static/favicon_io/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="/static/favicon_io/site.webmanifest" rel="manifest">
+  <!-- TODO rely on CDN for semantic? -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
+  <link href="/static/style.css" media="all" rel="stylesheet">
+  <title>lines</title>
+</head>
+
+
+  <link href="/lines/style.css" rel="stylesheet">
+
+
+<body>
+
+<div class="ui borderless menu main-menu" id="main-menu">
+    <div class="ui container">
+        <a class="header item" href="/">CXYZ</a>
+        <div class="right menu">
+          <a class="item" href="/about">about</a>
+          <a class="item" href="/contact">contact</a>
+<!--          <div class="item">-->
+<!--            <div class="ui icon input">-->
+<!--              <input type="text" placeholder="Search...">-->
+<!--              <i class="search link icon"></i>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+    </div>
+</div>
+<div id="content">
+
+<div class="ui container">
+<h1>lines</h1>
+<p>This piece was created while I was participating in <a href="https://genuary.art/">Genuary 2020</a>. The prompt was "lines", and
+I immediately began to think across lines of text and historical context.</p>
+<p><em>Lines combines lines of text from the transcript of Trump's call with Ukrainian President Zelensky at
+the heart of the scandal with lines of text from the US Constitution, together with images of Trump encoded as ASCII
+art.</em></p>
+<video id="video" width="100%" autoplay="true" muted="muted" loop playsinline>
+  <source src="/lines/trump-lines.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p></p>
+
+<p>At the time, the Trump presidency and it's battle-lines dominated dominated headlines. There had been
+talk of a "constitutional crisis" and impeachment since Trump took office three years before. And yet, he seemed somehow
+untouchable. The upcoming 2020 US Presidential election was just around the corner. It
+all felt noisy and hostile. No one was sure what would happen.*</p>
+<p>Whenever I see this piece, I'm reminded that in just a few months, the COVID pandemic would collide
+with everything – including Trump's presidency and the 2020 election – to even more thoroughly dominant
+the zeitgeist.</p>
+<p><em>* It had already been years of brutal political scandal involving Russia and election meddling, and the <a href="https://en.wikipedia.org/wiki/Trump%E2%80%93Ukraine_scandal">Trump-Ukraine
+scandal</a> specifically was just reaching full-tilt. The
+allegation was that Trump wouldn't provide the Ukrainian government $400 million of military aide to fight off a
+Russian invasion unless they opened a criminal investigation into Joe Biden and his son. Articles of impeachment had
+been filed against Trump. He was acquitted. Again, Trump was somehow untouchable; another "constitutional crisis".</em></p>
+</div>
+</div>
+
+<div class="ui active inverted dimmer" id="loading">
+  <div class="ui small loader"></div>
+</div>
+
+
+  
+
+<!-- TODO rely on CDN for jquery? -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
+<!-- TODO rely on CDN for semantic? -->
+<script crossorigin="anonymous" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+
+  <script src="/lines/lines.js" type="text/javascript"></script>
+  <script>
+    $("#loading").removeClass('active');
+  </script>
+
+</body>
+
+</html>

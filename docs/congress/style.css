@@ -1,0 +1,6 @@
+.isolated-feature-vid {
+    line-height: 0; /* Removes mysterious border added to bottom of first two vidoes */
+    border: 1px solid #DCDCDC;
+    margin-bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
